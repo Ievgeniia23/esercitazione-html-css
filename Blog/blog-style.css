@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("./assets/img/sfondo-blog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px;
+}
+
+h1 {
+  font-family: "Lobster Two", sans-serif;
+  text-align: center;
+  color: #382f4f;
+  text-shadow: 2px 2px 5px #cb8ec5;
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  font-family: "Playwrite IE", cursive;
+  color: #3a2370;
+  text-shadow: 2px 2px 5px #382f4f;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  margin-right: 50px;
+  border-radius: 16px;
+  border: 1px solid rgb(172, 8, 126);
+  color: rgb(30, 12, 131);
+  background-color: aqua;
+  cursor: pointer;
+}
+input {
+  background-color: orange;
+  border-radius: 14px;
+  padding: 8px;
+  border: 1px solid rgb(6, 167, 14);
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(201, 221, 16);
+  background-color: rgb(11, 159, 55);
+}
+
+input:hover {
+  background-color: #cb8ec5;
+}
+
+td,
+th {
+  border: 3px solid rgb(6, 167, 14);
+  text-align: center;
+}
+
+.fa-regular {
+  background-color: #5f0556;
+  color: aqua;
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+}

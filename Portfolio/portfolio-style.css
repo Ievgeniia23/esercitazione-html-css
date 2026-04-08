@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    130deg,
+    rgba(232, 244, 4, 0.5),
+    rgba(11, 90, 88, 0.5)
+  );
+  padding: 100px;
+}
+
+h1 {
+  font-family: "Playwrite IE", cursive;
+  text-align: center;
+  color: #0c9831;
+  text-shadow: 2px 2px 5px #04260fac;
+}
+
+h2,
+h3 {
+  font-family: "Playwrite IE", cursive;
+  color: #0a9c8f;
+  text-shadow: 2px 2px 5px #70a4ee;
+  text-align: center;
+}
+
+img {
+  border-radius: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(127, 19, 170);
+    font-style: italic;
+}
+
+li {
+    color: #068126;
+}
+
+th, td {
+    border: 3px dashed #3498db;
+    border-radius: 16px;
+    padding: 10px;
+}

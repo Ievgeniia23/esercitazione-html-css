@@ -1,0 +1,154 @@
+# Esercizio: creare un layout di pagina per i post di un blog
+
+---
+
+L'esercizio prevede la creazione di un layout in HTML per una pagina adatta a contenere i post di un blog.
+
+Andranno creati i tag semantici di struttura ed andrà impaginato il contenuto testuale seguente. È consigliato progettare in anticipo la corretta assegnazione dei contenitori, raggruppando i blocchi di testo secondo un'analisi dei contenuti.
+
+**Titolo pagina:** Sviluppo di una pagina web - Il mio Blog
+
+**Descrizione pagina:** Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.
+
+---
+
+## Contenuti pagina
+
+**Logo** *da utilizzare quello presente negli assets*
+Nome del blog – Il blog degli sviluppatori
+
+---
+
+**(inizio menù)**
+- Home
+- Articoli
+- Lavora con noi
+
+**(fine menù)**
+
+---
+
+**(titolo post)**
+Come creare un template per i post
+
+*di Mario Rossi – pubblicato il 25-10-2024*
+
+---
+
+**(contenuto del post)**
+
+La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine.
+
+Le varie aree saranno quindi suddivise in:
+- Contenuti di intestazione del tag `<header>`
+- Contenuti centrali variabili del tag `<main>` (corpo principale)
+- Contenuti di fine pagina comuni, da inserire nel tag `<footer>`
+
+### Formattazione del codice
+
+Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+
+1. Progettare il markup assegnando ad ogni specifico testo il tag appropriato
+2. Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso
+3. Applicare gli stili CSS
+
+L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+
+---
+
+**(tabella a 3 colonne)**
+
+**Diffusione dei CSS**
+
+| Anno | % di utilizzo | Supporto browsers |
+|------|--------------|-------------------|
+| 2000 | 20%          | 17%               |
+| 2002 | 35%          | 22%               |
+| 2004 | 45%          | 42%               |
+| 2008 | 80%          | 51%               |
+| 2012 | 100%         | 76%               |
+
+Un test di validazione potrà essere fatto tramite il tool online [W3C Validator](https://validator.w3.org/) dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers.
+
+Inserisci qui sotto un video YouTube a tua scelta sull'argomento HTML/CSS usando il tag `<iframe>`.
+
+**(fine contenuto post)**
+
+---
+
+### Form newsletter *(esercizio form)*
+
+Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter!
+
+**(inizio form newsletter)**
+
+Crea un form HTML con i seguenti elementi:
+
+1. Un campo `<input>` di tipo `email` con placeholder `"Inserisci la tua email"` e attributo `required`
+2. Un pulsante `<button>` di tipo `submit` con testo `"Iscriviti!"`
+3. Un pulsante `<button>` di tipo `reset` con testo `"Cancella"`
+
+> **EXTRA:** aggiungi un secondo campo `<input>` di tipo `text` per il nome dell'utente, con placeholder `"Il tuo nome"`, e posizionalo prima del campo email.
+
+**(fine form newsletter)**
+
+---
+
+**(area correlati)**
+
+**Articoli correlati**
+
+- **Validare il codice HTML**
+  Categoria: develop — Data: 18-9-2024
+
+- **Correggere la sintassi**
+  Categoria: develop — Data: 16-9-2024
+
+- **Meno Kb nella pagina**
+  Categoria: ottimizzazione — Data: 30-9-2024
+
+**(fine area correlati)**
+
+---
+
+**(copyright e info)**
+
+Blog ©2024
+
+Testata online di Mario Rossi – via Roma 1, Milano.
+[info@esempio.it](mailto:info@esempio.it)
+
+**(fine copyright e info)**
+
+---
+
+## 🔴 Problem Solving Center / FAQ
+
+### Non riesco a strutturare la pagina
+
+Analizza prima il contenuto e individua quali blocchi appartengono all'header, al main e al footer. Disegna uno schema su carta prima di scrivere il codice. Ricorda che Google è tuo amico! :)
+
+### Come scelgo i tag semantici giusti?
+
+Usa `<header>` per la testata con logo e navigazione, `<main>` per il contenuto principale del post, `<aside>` per i correlati, `<footer>` per copyright e info. All'interno del main, sfrutta `<article>` e `<section>` per organizzare i blocchi.
+
+### Come eseguo il file HTML?
+
+In VSCode installa l'estensione **Live Server**. Una volta fatto, clicca con il tasto destro il file nell'editor e seleziona `"Open with Live Server"`.
+
+
+
+
+
+<!-- 
+    Prendendo il file dell'esercizio precedente esegui queste operazioni:
+    1. applica un tool come reset o normalize alla grafica del sito.
+    2. applica delle regole di grafica come:
+        - sfondi
+        - font personalizzati
+        - colori personalizzati
+        - box-model
+        - grafica personalizzata dei bottoni
+        - EXTRA: grafica personalizzata della tabella
+        - EXTRA: aggiungi delle icone ( usa strumenti come fontawesome o boxicon)
+    -->
