@@ -30,10 +30,11 @@
 
     <link rel="stylesheet" href="./blog-style.css" />
   </head>
-  </head>
+  
 
   <body>
     <header>
+      <div class="nav-wrap">
       <img
         src="./assets/img/logo.jpg"
         height="50"
@@ -41,18 +42,24 @@
         alt="immagine di logo"
       />
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="#home">Home</a></li>
           <li><a href="#articoli">Articoli</a></li>
           <li><a href="#lavora">Lavora con noi</a></li>
         </ul>
       </nav>
-      <hr />
-    </header>
+      </div>
+         </header>
 
     <main>
+    <section class="hero">
+
       <h1 id="home">Come creare un template per il post</h1>
       <p>di Mario Rossi – pubblicato il 25-10-2024</p>
+</section>
+
+<div class="layout">
+<div class="layout-main">
       <article>
         <p>
           La prima cosa da fare è suddividere in blocchi logici la pagina,
@@ -90,12 +97,12 @@
         </ol>
       </article>
 
-      <article>
+      <article class="table-article-wrap">
         <p>
           L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
           la diffusione pressoché totale.
         </p>
-        <table>
+        <table class="table-wrap">
           <caption>
             Diffusione dei CSS 
   
@@ -161,21 +168,7 @@
         ></iframe>
       </article>
 
-      <article>
-        <h2 id="lavora">
-          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
-          nostra newsletter!
-        </h2>
-        <form action="/action_page.php">
-          <label for="mail">Inserisci la tua email</label> <br />
-          <input type="mail" name="mail" placeholder="Inserisci la tua email" />
-          <br />
-          <br />
-          <button type="submit">Iscriviti!</button>
-          <button type="reset">Cancella</button>
-        </form>
-      </article>
-
+     
       <article>
         <h2 id="articoli">Articoli correlati</h2>
         <ul>
@@ -196,10 +189,34 @@
           </li>
         </ul>
       </article>
+
+</div>
+
+ <aside class="input-form">
+        <h3 id="lavora">
+          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+          nostra newsletter!
+        </h3>
+        <form action="/action_page.php">
+          <label for="mail">Inserisci la tua email</label> <br />
+          <input type="mail" name="mail" placeholder="Inserisci la tua email" />
+          <br />
+          <br />
+          <button type="submit">Iscriviti!</button>
+          <button type="reset">Cancella</button>
+        </form>
+      </aside>
+
+</div>
+
     </main>
 
-    <footer>
-      <hr />
+
+
+
+
+    <footer class="footer-wrap">
+      
       <h2>Copyright e info</h2>
       <p>Blog ©2024</p>
       <p>
